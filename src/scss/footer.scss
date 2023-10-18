@@ -1,0 +1,32 @@
+//====================================================================================================
+.footer {
+	// .footer__container
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+		min-height: 68px;
+		padding-top: 24px;
+		padding-bottom: 24px;
+		@media (max-width: $mobile) {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+	}
+	// .footer__copy
+	&__copy {
+		font-weight: 300;
+		line-height: 142.857%; /* 142.857% */
+		letter-spacing: 0.28px;
+	}
+	// .footer__politic
+	&__politic {
+		color: var(--Dark-Beige, #978771);
+		font-weight: 300;
+		line-height: 142.857%; /* 142.857% */
+		letter-spacing: 0.28px;
+	}
+}
+
+//====================================================================================================

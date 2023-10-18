@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/_head.htm',{
+"title":"HomePage"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__body">
+						<h1 class="main__title">
+							<p>Мир красоты, в котором</p>
+							<p>правят качествои</p>
+							<p>и комфорт</p>
+						</h1>
+						<h3 class="main__subTitle">Полный спектр парикмахерских и косметологических услуг</h3>
+						<div class="main__buttons">
+							<button class="button button__white">Записаться</button>
+							<button class="button button__transparent">Все услуги</button>
+						</div>
+					</div>
+					<div class="main__bg"><img src="@img/main/bg.jpg" alt="background"></div>
+				</div>
+			</section>
+			<div class="ticker">
+				<div class="ticker__box">
+					<div class="ticker__text">VIP-кабинет</div>
+					<div class="ticker__text">Профессиональная косметика и материалы</div>
+					<div class="ticker__text">Наличие парковки</div>
+					<div class="ticker__text">Стильный дизайн и комфортная атмосфера</div>
+				</div>
+
+				<div aria-hidden="true" class="ticker__box">
+					<div class="ticker__text">VIP-кабинет</div>
+					<div class="ticker__text">Профессиональная косметика и материалы</div>
+					<div class="ticker__text">Наличие парковки</div>
+					<div class="ticker__text">Стильный дизайн и комфортная атмосфера</div>
+				</div>
+			</div>
+			<div class="ticker">
+				<div class="ticker__box reverse">
+					<div class="ticker__text">Дипломированные специалисты</div>
+					<div class="ticker__text">VIP-кабинет</div>
+					<div class="ticker__text">Профессиональная косметика и материалы</div>
+				</div>
+
+				<div aria-hidden="true" class="ticker__box reverse">
+					<div class="ticker__text">Дипломированные специалисты</div>
+					<div class="ticker__text">VIP-кабинет</div>
+					<div class="ticker__text">Профессиональная косметика и материалы</div>
+				</div>
+			</div>
+			<section class="promo">
+				<div class="promo__container">
+					<div class="promo__body">
+						<div class="promo__smallbg"><img src="@img/promo/01.jpg" alt=""></div>
+						<h2 class="promo__title title">БЬЮТИ ВСЕЛЕННАЯ ДЛЯ САМЫХ МОДНЫХ И ВЛЮБЛЕННЫХ В КРАСОТУ</h2>
+						<h3 class="promo__subtitle subtitle">Дипломированные мастера, современная техника, органическая
+							продукция, стильный интерьер c фотозоной — здесь все создано для вашего удобства и комфортного
+							отдыха.</h3>
+					</div>
+				</div>
+			</section>
+			<section class="services" id="services">
+				<div class="services__container">
+					<div class="services__body">
+						<div class="services__boxTitle">
+							<h2 class="services__title title">Наши услуги</h2>
+							<h3 class="services__subtitle subtitle">Окрашивания, услуги в четыре руки, стрижкии и укладки,
+								макияж, косметология и уже легендарные «брови» — мы работаем для тех, кто ценит время, качество
+								и комфорт. Мы работаем для вас!</h3>
+
+						</div>
+						<div class="services__slider swiper">
+							<div class="services__wrapper swiper-wrapper">
+								<div class="services__slide services__slide_one swiper-slide">
+									<h2 class="services__title title">Наши услуги</h2>
+									<h3 class="services__subtitle subtitle">Окрашивания, услуги в четыре руки, стрижкии и
+										укладки,
+										макияж, косметология и уже легендарные «брови» — мы работаем для тех, кто ценит время,
+										качество
+										и комфорт. Мы работаем для вас!</h3>
+									<button class="services__button button">Смотреть все</button>
+								</div>
+								<div class="services__slide swiper-slide">
+									<div class="services__box">
+										<div class="services__img">
+											<img src="@img/services/01.jpg" alt="services">
+											<a class="services__link" href="#">Подробнее</a>
+										</div>
+
+									</div>
+									<div class="services__desc">Брови и ресницы</div>
+								</div>
+								<div class="services__slide swiper-slide">
+									<div class="services__box">
+										<div class="services__img">
+											<img src="@img/services/02.jpg" alt="services">
+											<a class="services__link" href="#">Подробнее</a>
+										</div>
+
+									</div>
+									<div class="services__desc">макияж и прически</div>
+								</div>
+								<div class="services__slide swiper-slide">
+									<div class="services__box">
+										<div class="services__img">
+											<img src="@img/services/03.jpg" alt="services">
+											<a class="services__link" href="#">Подробнее</a>
+										</div>
+
+									</div>
+									<div class="services__desc">косметология</div>
+								</div>
+								<div class="services__slide swiper-slide">
+									<div class="services__box">
+										<div class="services__img">
+											<img src="@img/services/04.jpg" alt="services">
+											<a class="services__link" href="#">Подробнее</a>
+										</div>
+
+									</div>
+									<div class="services__desc">парикмахерские услуги</div>
+								</div>
+								<div class="services__slide swiper-slide">
+									<div class="services__box">
+										<div class="services__img">
+											<img src="@img/services/05.jpg" alt="services">
+											<a class="services__link" href="#">Подробнее</a>
+										</div>
+									</div>
+									<div class="services__desc">маникюр и педикюр</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="works" id="works">
+				<div class="works__container">
+					<div class="works__headline">
+						<h2 class="works__title title">наши работы</h2>
+						<ul class="works__list">
+							<li class="works__item"><a href="#">Брови</a></li>
+							<li class="works__item"><a href="#">волосы</a></li>
+							<li class="works__item"><a href="#">Косметология</a></li>
+							<li class="works__item"><a href="#">маникюр и педикюр</a></li>
+						</ul>
+					</div>
+					<div class="works__body">
+						<div><img src="@img/works/01.jpg" class="works__img" alt="photo"></div>
+						<div> <img src="@img/works/02.jpg" class="works__img" alt="photo"></div>
+						<div><img src="@img/works/03.jpg" class="works__img" alt="photo"></div>
+						<div><img src="@img/works/04.jpg" class="works__img" alt="photo"></div>
+					</div>
+					<a href="#" class="works__button button">Больше работ в instagram</a>
+				</div>
+			</section>
+			<section class="hospitality" id="hospitality">
+				<div class="hospitality__container">
+					<div class="hospitality__body">
+						<div class="hospitality__text">
+							<h2 class="hospitality__title title">Гостеприимство <br> и радушие</h2>
+							<h3 class="hospitality__subtitle">«Правильный» кофе на безлактозном молоке или вкусный чай с
+								травами? Наши администраторыс удовольствием приготовят ваш любимый напитокв качестве
+								комплимента от салона. А еще у нас есть бесплатная парковка для клиентов.</h3>
+							<button class="hospitality__button button">Записаться</button>
+						</div>
+						<div class="hospitality__img"><img src="@img/hospitality/bg.jpg" alt="bg"></div>
+					</div>
+				</div>
+			</section>
+			<section class="self-care" id="self-care">
+				<div class="self-care__container">
+					<div class="self-care__body">
+						<div class="self-care__card">
+							<img class="self-care__img" src="@img//self-care/01.jpg" alt="self-care">
+							<div class="self-care__desc">
+								<div class="self-care__text">Уход за кожей лица</div>
+								<div class="self-care__price">$90</div>
+							</div>
+						</div>
+						<div class="self-care__card">
+							<img class="self-care__img" src="@img//self-care/02.jpg" alt="self-care">
+							<div class="self-care__desc">
+								<div class="self-care__text">Ordinary набор</div>
+								<div class="self-care__price">$200</div>
+							</div>
+						</div>
+						<div class="self-care__main">
+							<h2 class="self-care__title title">Комплексный подход к уходу за собой</h2>
+							<h3 class="self-care__subtitle subtitle">В нашем интернет-магазине вы можете найти продукцию
+								косметических
+								брендов, которая поможет продлить эффект от процедур и обеспечить грамотный ежедневный уход.
+							</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="brands">
+				<div class="brands__container">
+					<div class="brands__item"><img src="@img/brands/01.svg" alt="brand"></div>
+					<div class="brands__item"><img src="@img/brands/02.svg" alt="brand"></div>
+					<div class="brands__item"><img src="@img/brands/03.png" alt="brand"></div>
+					<div class="brands__item"><img src="@img/brands/04.png" alt="brand"></div>
+					<div class="brands__item"><img src="@img/brands/05.svg" alt="brand"></div>
+					<div class="brands__item"><img src="@img/brands/06.svg" alt="brand"></div>
+				</div>
+			</div>
+			<section class="contacts" id="contacts">
+				<div class="contacts__container">
+					<h2 class="contacts__title title">контакты</h2>
+					<div class="contacts__body">
+						<div class="contacts__text">
+							<div class="contacts__item">
+								<p class="contacts__heading">Телефон</p>
+								<a href="tel:971501234567" class="contacts__explanation">+971 50 123 4567</a>
+							</div>
+							<div class="contacts__item">
+								<p class="contacts__heading">Instagram</p>
+								<a href="#" class="contacts__explanation">@adbeauty</a>
+							</div>
+							<div class="contacts__item">
+								<p class="contacts__heading">E-mail</p>
+								<a href="mailto:adbeauty@gmail.com" class="contacts__explanation">adbeauty@gmail.com</a>
+							</div>
+							<div class="contacts__item">
+								<p class="contacts__heading">Работаем</p>
+								<p class="contacts__explanation">с 10:00 до 19:00</p>
+							</div>
+							<div class="contacts__item">
+								<p class="contacts__heading">Адрес</p>
+								<p class="contacts__explanation">улица 43А, No:2, Эль Бада', Джумейра, эмират Дубай</p>
+							</div>
+							<a target="_blank" href="https://maps.app.goo.gl/9DGEyLJ9C6GYtgZp7"
+								class="button button__transparent contacts__button">открыть в google maps</a>
+						</div>
+						<div class="contacts__map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3609.4012953173506!2d55.26579928302079!3d25.223405383429544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1697607811083!5m2!1sru!2sru"
+								width="100%" height="639" style="border:0;" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
