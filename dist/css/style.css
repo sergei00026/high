@@ -1181,7 +1181,7 @@ h6 {
   }
 
   .promo__body {
-    background: none;
+    background: 0;
     padding: 64px 0;
   }
 }
@@ -1328,7 +1328,7 @@ h6 {
 @media (max-width: 47.99875em) {
   .main__body {
     padding-bottom: 48px;
-    padding-top: 388px;
+    padding-top: 300px;
   }
 
   .services {

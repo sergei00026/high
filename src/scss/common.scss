@@ -23,7 +23,7 @@
 		padding-bottom: 60px;
 		@media (max-width: $mobile) {
 			padding-bottom: 48px;
-			padding-top: 388px;
+			padding-top: 300px;
 		}
 	}
 	// .main__title
@@ -192,7 +192,7 @@
 		background: url('@img/promo/bg.jpg') center/ contain no-repeat;
 		padding: 294px 0;
 		@media (max-width: em(1100)) {
-			background: none;
+			background: 0;
 			padding: 64px 0;
 		}
 	}
