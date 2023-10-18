@@ -8,7 +8,7 @@ for (let anchor of anchors) {
 
 		const blockID = anchor.getAttribute('href').substr(1)
 		if (anchor.closest('.menu-open')) {
-			anchor.closest('.menu-open').classList.remove('menu-open')
+			anchor.closest('.menu-open').classList.remove('menu-open', 'lock')
 		}
 
 		document.getElementById(blockID).scrollIntoView({
