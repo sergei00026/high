@@ -1181,7 +1181,7 @@ h6 {
   }
 
   .promo__body {
-    background: 0;
+    background: 0 !important;
     padding: 64px 0;
   }
 }
